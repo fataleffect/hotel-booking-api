@@ -6,5 +6,4 @@ public class Hotel
     public string Name { get; set; } = string.Empty;
     // Navigation
     public ICollection<Room> Rooms { get; set; } = new List<Room>();
-
 }
